@@ -2,7 +2,7 @@ import {Schema, model} from "mongoose"
 
 const vehiculeSchema = new Schema({
   reference: {
-    type: mongoose.Schema.Types.ObjectId,
+    type: Schema.Types.ObjectId,
   },
   marque: {
     type: String,
